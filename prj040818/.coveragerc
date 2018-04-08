@@ -1,0 +1,3 @@
+[run]
+source = prj040818
+omit = prj040818/test*
