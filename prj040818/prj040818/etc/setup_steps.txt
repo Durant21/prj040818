@@ -33,11 +33,11 @@ git config --global credential.helper 'cache --timeout=360000'
 git clone https://github.com/mikeckennedy/restful-services-in-pyramid.git
 
 
-cd /webapps/prj040818/prj040818/prj040818/
+cd /home/dante/webapps/prj040818/prj040818/prj040818/
 python3 setup.py develop
 
 
-cp /webapps/prj040818/prj040818/prj040818/prj040818/etc/init/prj040818_svc.service /etc/systemd/system/
+cp /home/dante/webapps/prj040818/prj040818/prj040818/prj040818/etc/init/prj040818_svc.service /etc/systemd/system/
 
 systemctl start auto_svc
 systemctl enable auto_svc

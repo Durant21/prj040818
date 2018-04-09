@@ -11,7 +11,7 @@ server {
         gzip_buffers    8 256k;
         uwsgi_buffers   8 256k;
 
-        alias /webapps/prj040818/prj040818/prj040818/prj040818/static;
+        alias /home/dante/webapps/prj040818/prj040818/prj040818/prj040818/static;
         expires 365d;
     }
     location / {
