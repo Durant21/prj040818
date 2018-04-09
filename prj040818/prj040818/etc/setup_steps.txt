@@ -47,7 +47,7 @@ systemctl status auto_svc
 # CAREFUL HERE. If you are using default, maybe skip this
 rm /etc/nginx/sites-enabled/default
 
-cp /webapps/prj040818/prj040818/prj040818/prj040818/etc/nginx/sites-available/prj040818_service.nginx /etc/nginx/sites-available/
+cp /home/dante/webapps/prj040818/prj040818/prj040818/prj040818/etc/nginx/sites-available/prj040818_service.nginx /etc/nginx/sites-available/
 
 update-rc.d nginx enable
 
