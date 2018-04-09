@@ -14,7 +14,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="prj040818_svc.service" pinned="false" current-in-tab="true">
+      <file leaf-file-name="prj040818_svc.service" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/prj040818/etc/init/prj040818_svc.service">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
@@ -34,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="setup_steps.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="setup_steps.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/prj040818/etc/setup_steps.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="39" column="51" lean-forward="false" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
+            <state relative-caret-position="285">
+              <caret line="42" column="25" lean-forward="false" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -52,8 +52,8 @@
         <option value="$PROJECT_DIR$/prj040818/etc/init/auto_svc.service" />
         <option value="$PROJECT_DIR$/prj040818/etc/nginx/sites-available/auto_service.nginx" />
         <option value="$PROJECT_DIR$/prj040818/etc/init/prj040818_svc.service" />
-        <option value="$PROJECT_DIR$/prj040818/etc/setup_steps.txt" />
         <option value="$PROJECT_DIR$/prj040818/etc/nginx/sites-available/prj040818_service.nginx" />
+        <option value="$PROJECT_DIR$/prj040818/etc/setup_steps.txt" />
       </list>
     </option>
   </component>
@@ -260,14 +260,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prj040818/etc/setup_steps.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="39" column="51" lean-forward="false" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/prj040818/etc/nginx/sites-available/prj040818_service.nginx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -280,6 +272,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prj040818/etc/setup_steps.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="42" column="25" lean-forward="false" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="25" />
           <folding />
         </state>
       </provider>

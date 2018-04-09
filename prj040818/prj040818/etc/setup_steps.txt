@@ -37,7 +37,7 @@ cd /webapps/prj040818/prj040818/prj040818/
 python3 setup.py develop
 
 
-cp /webapps/prj040818/prj040818/prj040818/prj040818/etc/init/auto_svc.service /etc/systemd/system/
+cp /webapps/prj040818/prj040818/prj040818/prj040818/etc/init/prj040818_svc.service /etc/systemd/system/
 
 systemctl start auto_svc
 systemctl enable auto_svc
@@ -47,7 +47,7 @@ systemctl status auto_svc
 # CAREFUL HERE. If you are using default, maybe skip this
 rm /etc/nginx/sites-enabled/default
 
-cp /webapps/prj040818/prj040818/prj040818/prj040818/etc/nginx/sites-available/auto_service.nginx /etc/nginx/sites-available/
+cp /webapps/prj040818/prj040818/prj040818/prj040818/etc/nginx/sites-available/prj040818_service.nginx /etc/nginx/sites-available/
 
 update-rc.d nginx enable
 
