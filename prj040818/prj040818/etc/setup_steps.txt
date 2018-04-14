@@ -22,9 +22,9 @@ pip3 install uwsgi
 pip3 install glances
 
 mkdir /webapps
-mkdir /webapps/logs
-mkdir /webapps/logs/auto_service
-mkdir /webapps/logs/auto_service/app_log
+mkdir /home/dante/webapps/logs/
+mkdir home/dante/webapps/logs/prj040818
+mkdir /home/dante/webapps/logs/prj040818/app_log
 cd /webapps
 
 git config --global credential.helper cache
@@ -33,11 +33,11 @@ git config --global credential.helper 'cache --timeout=360000'
 git clone https://github.com/mikeckennedy/restful-services-in-pyramid.git
 
 
-cd /home/dante/webapps/prj040818/prj040818/prj040818/
+cd /home/dante/webapps/prj040818/prj040818/
 python3 setup.py develop
 
 
-cp /home/dante/webapps/prj040818/prj040818/prj040818/prj040818/etc/init/prj040818_svc.service /etc/systemd/system/
+cp /home/dante/webapps/prj040818/prj040818/prj040818/etc/init/prj040818_svc.service /etc/systemd/system/
 
 systemctl start auto_svc
 systemctl enable auto_svc
@@ -47,7 +47,7 @@ systemctl status auto_svc
 # CAREFUL HERE. If you are using default, maybe skip this
 rm /etc/nginx/sites-enabled/default
 
-cp /home/dante/webapps/prj040818/prj040818/prj040818/prj040818/etc/nginx/sites-available/prj040818_service.nginx /etc/nginx/sites-available/
+cp /home/dante/webapps/prj040818/prj040818/etc/nginx/sites-available/prj040818_service.nginx /etc/nginx/sites-available/
 
 update-rc.d nginx enable
 
